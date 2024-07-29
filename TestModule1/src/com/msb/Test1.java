@@ -8,11 +8,16 @@ package com.msb;
  */
 public class Test1 {
     public static void main(String[] args) {
-        System.out.println("111");
-        System.out.println("222");
-        System.out.println("abd");
-        System.out.println("李诗颖是笨蛋");
-        System.out.println();
+        String a = "李诗颖";
+        String b = "笨蛋";
+        String c = "SB";
+        String d = "kimi";
+        String e = "肥婆";
+        String f = "诗颖宝";
 
+        printhahaha(f,c);
+    }
+    public static void printhahaha(String a,String b){
+        System.out.println(a+"是"+b);
     }
 }
